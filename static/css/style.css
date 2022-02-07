@@ -8,6 +8,8 @@
 
 html {
   background-color: #daf3fd;
+  padding-right: 2px;
+  padding-left: 2px;
 }
 
 body {
@@ -44,6 +46,7 @@ body {
 a {
   color: var(--headline-color);
   text-decoration: none;
+  word-break: break-all;
 }
 
 #banner > h1 {
@@ -74,4 +77,12 @@ a {
 
 .entry-title {
   font-size: 18px;
+}
+
+.entry-content img {
+  width: 100%;
+}
+
+.org-src-container {
+  overflow-x: scroll;
 }
