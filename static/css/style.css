@@ -38,8 +38,12 @@ a {
 }
 
 #banner {
-  background: url("/theme/images/top.png");
+  background-image: url("/theme/images/top.png");
   height: 80px;
+}
+
+#banner > h1 {
+  margin-inline-start: 20px;
 }
 
 #content {
@@ -60,6 +64,26 @@ a {
 #post-list {
   list-style-type: none;
   padding-inline-start: 0;
+}
+
+#index {
+  position: relative;
+}
+
+#left-border {
+  position: absolute;
+  left: -10px;
+  background: url("/theme/images/mid-left-border.png") repeat-y scroll;
+  height: 100%;
+  width: 10px;
+}
+
+#top-left-border {
+  position: absolute;
+  background: url("/theme/images/top-left-border.png");
+  height: 130px;
+  width: 10px;
+  z-index: 2;
 }
 
 .entry-title {
