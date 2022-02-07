@@ -1,7 +1,9 @@
 @import 'borders.css';
+@import 'banners.css';
 
 :root {
   --headline-color: #0066cc;
+  --banner-height: 130px;
 }
 
 html {
@@ -37,10 +39,6 @@ a {
   text-decoration: none;
 }
 
-#banner {
-  height: 130px;
-}
-
 #banner > h1 {
   margin-inline-start: 20px;
   position: relative;
@@ -57,10 +55,6 @@ a {
   font-weight: normal;
 }
 
-#contentinfo {
-  background: url("/theme/images/bottom.png");
-}
-
 #post-list {
   list-style-type: none;
   padding-inline-start: 0;
@@ -68,33 +62,6 @@ a {
 
 #index {
   position: relative;
-}
-
-#banner-background-front {
-  background: url("/theme/images/top.png");
-  background-repeat: no-repeat;
-  background-position: center;
-  height: 130px;
-}
-
-#banner-background-back {
-  position: absolute;
-  background: url("/theme/images/top-grad.png") repeat-x scroll;
-  height: 130px;
-  width: 100%;
-}
-
-#bottom-banner-background-back {
-  background: url("/theme/images/bottom-grad.png") repeat-x scroll;
-  height: 130px;
-  width: 100%;
-}
-
-#bottom-banner-background-front {
-  background: url("/theme/images/bottom.png");
-  background-repeat: no-repeat;
-  background-position: center;
-  height: 130px;
 }
 
 .entry-title {
