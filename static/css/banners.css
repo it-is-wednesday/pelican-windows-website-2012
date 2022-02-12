@@ -27,4 +27,7 @@
 
 #banner {
   height: var(--banner-height);
+  display: flex;
+  align-items: baseline;
+  flex-direction: column;
 }
