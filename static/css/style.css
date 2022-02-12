@@ -11,6 +11,7 @@ html {
   padding-right: 14px;
   padding-left: 14px;
   word-break: break-word;
+  font-size: calc(1vw + 1vh);
 }
 
 body {
@@ -39,6 +40,10 @@ body {
 a {
   color: var(--headline-color);
   text-decoration: none;
+}
+
+#banner {
+  margin-block-start: 2rem;
 }
 
 #banner > h1 {
@@ -90,27 +95,5 @@ a {
 @media (min-width: 1200px) {
   body {
     max-width: 50rem;
-  }
-}
-
-@media (max-width: 1200px) {
-  html {
-    font-size: 25px;
-  }
-
-  #menu > ul {
-    font-size: 2.5rem;
-  }
-
-  #banner {
-    flex-direction: row;
-  }
-
-  #banner > h1 {
-    margin-block-start: 0.5em;
-  }
-
-  #content {
-    padding-top: 10px;
   }
 }
