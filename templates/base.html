@@ -7,6 +7,8 @@
          <meta charset="utf-8" />
          <meta name="generator" content="Pelican" />
          <link rel="stylesheet" type="text/css" href="{{ SITEURL }}/theme/css/style.css" />
+         <link rel="stylesheet" type="text/css" href="https://unpkg.com/normalize.css@8.0.1/normalize.css">
+
          {% if FEED_ALL_ATOM %}
             <link href="{{ FEED_DOMAIN }}/{% if FEED_ALL_ATOM_URL %}{{ FEED_ALL_ATOM_URL }}{% else %}{{ FEED_ALL_ATOM }}{% endif %}" type="application/atom+xml" rel="alternate" title="{{ SITENAME }} Full Atom Feed" />
          {% endif %}
@@ -45,10 +47,7 @@
          <div id="bottom-right-border"></div>
       </div>
 
-      <header id="banner" class="body">
-         <div id="banner-background-back">
-            <div id="banner-background-front"></div>
-         </div>
+      <header id="banner-top" class="body">
          <h1>
             <a href="{{ SITEURL }}/">
                {{ SITENAME }}
@@ -90,8 +89,7 @@
       {% block content %}
       {% endblock %}
 
-      <div id="bottom-banner-background-back">
-         <div id="bottom-banner-background-front"></div>
+      <div id="banner-bottom">
       </div>
    </body>
 </html>

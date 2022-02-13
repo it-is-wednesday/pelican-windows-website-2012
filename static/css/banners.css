@@ -1,33 +1,14 @@
-#banner-background-front {
-  background: url("/theme/images/top.png");
-  background-repeat: no-repeat;
-  background-position: center;
-  height: var(--banner-height);
-}
-
-#banner-background-back {
-  position: absolute;
-  background: url("/theme/images/top-grad.png") repeat-x scroll;
-  height: var(--banner-height);
-  width: 100%;
-}
-
-#bottom-banner-background-back {
-  background: url("/theme/images/bottom-grad.png") repeat-x scroll;
-  height: var(--banner-height);
-  width: 100%;
-}
-
-#bottom-banner-background-front {
-  background: url("/theme/images/bottom.png");
-  background-repeat: no-repeat;
-  background-position: center;
-  height: var(--banner-height);
-}
-
-#banner {
+#banner-top {
+  background: url("/theme/images/top.png") no-repeat center,
+    url("/theme/images/top-grad.png") repeat-x scroll;
   height: var(--banner-height);
   display: flex;
   align-items: baseline;
   flex-direction: column;
+}
+
+#banner-bottom {
+  background: url("/theme/images/bottom.png") no-repeat center,
+    url("/theme/images/bottom-grad.png") repeat-x scroll;
+  height: var(--banner-height);
 }
