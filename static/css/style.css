@@ -19,19 +19,6 @@ body {
   font-family: segoe ui, verdana, arial, sans-serif;
 }
 
-#main-container {
-  display: flex;
-}
-
-#menu > ul {
-  list-style-type: none;
-  display: flex;
-  gap: 25px;
-  font-size: 2rem;
-  padding-inline-start: 20px;
-  margin-block-start: 0;
-}
-
 a {
   color: var(--headline-color);
   text-decoration: none;
@@ -44,7 +31,7 @@ a {
 
 #content {
   background: #ffffff;
-  padding: 30px 60px 60px 60px;
+  padding: 2rem;
 }
 
 #content > h2 {
@@ -72,6 +59,7 @@ a {
   width: 100%;
 }
 
+/* hide author info and category info and post previews at index */
 #post-list .entry-content,
 .author {
   display: none;
