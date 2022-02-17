@@ -46,6 +46,10 @@ a {
   padding-inline-start: 0;
 }
 
+#post-list > li {
+  padding-bottom: 3rem;
+}
+
 #index {
   position: relative;
 }
